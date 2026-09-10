@@ -1,0 +1,50 @@
+[
+  {
+    "id": "living-plan",
+    "title": "客餐厅装修方案",
+    "category": "装修方案",
+    "spaceId": "living-dining",
+    "materialId": null,
+    "fileType": "PDF",
+    "fileUrl": "#pending",
+    "thumbnail": "/placeholders/document-plan.jpg",
+    "description": "包含空间定位、设计概念与主要效果展示。",
+    "status": "资料已归档"
+  },
+  {
+    "id": "floor-spec",
+    "title": "橡木多层实木地板产品说明书",
+    "category": "产品说明书",
+    "spaceId": "living-dining",
+    "materialId": "living-dining-floor",
+    "fileType": "PDF",
+    "fileUrl": "#pending",
+    "thumbnail": "/placeholders/document-spec.jpg",
+    "description": "品牌、型号与检测参数持续完善。",
+    "status": "资料完善中"
+  },
+  {
+    "id": "inspection-report",
+    "title": "验房任务报告",
+    "category": "验房报告",
+    "spaceId": null,
+    "materialId": null,
+    "fileType": "PDF",
+    "fileUrl": "/inspection/home-inspection-report.pdf",
+    "thumbnail": "/placeholders/document-report.jpg",
+    "description": "汇总验房记录、问题点位、整改与复验结果。",
+    "status": "资料已归档"
+  },
+  {
+    "id": "living-bom",
+    "title": "客餐厅物料清单",
+    "category": "物料清单",
+    "spaceId": "living-dining",
+    "materialId": null,
+    "fileType": "XLSX",
+    "fileUrl": "#pending",
+    "thumbnail": "/placeholders/document-bom.jpg",
+    "description": "汇总客餐厅地板、墙面和柜体材料条目。",
+    "status": "资料已归档"
+  }
+]

@@ -1,0 +1,591 @@
+{
+  "schemaVersion": 1,
+  "sourceBatch": "户型资料8.5",
+  "preparedAt": "2026-08-07",
+  "status": "partner-provided",
+  "selection": {
+    "sourceFileCount": 61,
+    "importedFileCount": 58,
+    "excludedFileCount": 3,
+    "rules": [
+      "每个空间保留所有不同视角的效果图并依次编号，01 作为默认主图",
+      "完全相同的产品跨空间出现时只保留一条产品记录，通过 spaceIds 关联多个空间",
+      "同一材料同时提供纹理图和长图介绍时，纹理图用于卡片，长图保留为详情资料",
+      "完全相同的文件只导入一次，原始交付目录保持不变"
+    ]
+  },
+  "plan": {
+    "id": "yipin-custom-plan-20260805",
+    "name": "壹品定制装修方案",
+    "styleName": "现代雅致",
+    "layout": "三室两厅两卫",
+    "floorPlanImage": "/customization/floor-plan.png",
+    "heroImage": "/customization/renders/living-dining-01.jpg",
+    "description": "小壹已按八个居住空间汇总效果图、定制产品与主要材料。"
+  },
+  "spaces": [
+    {
+      "id": "living-dining",
+      "order": 1,
+      "name": "客餐厅",
+      "areaSqm": 39.47,
+      "selectedRenderId": "living-dining-render-01",
+      "renders": [
+        {
+          "id": "living-dining-render-01",
+          "number": "01",
+          "image": "/customization/renders/living-dining-01.jpg",
+          "sourceFile": "02客餐厅效果图/AI智能设计平台渲染图_2026-08-05 16-We-39.jpg"
+        },
+        {
+          "id": "living-dining-render-02",
+          "number": "02",
+          "image": "/customization/renders/living-dining-02.jpg",
+          "sourceFile": "02客餐厅效果图/AI智能设计平台渲染图_2026-08-05 16-We-21.jpg"
+        },
+        {
+          "id": "living-dining-render-03",
+          "number": "03",
+          "image": "/customization/renders/living-dining-03.jpg",
+          "sourceFile": "02客餐厅效果图/AI智能设计平台渲染图_2026-08-05 16-We-35.jpg"
+        },
+        {
+          "id": "living-dining-render-04",
+          "number": "04",
+          "image": "/customization/renders/living-dining-04.jpg",
+          "sourceFile": "02客餐厅效果图/AI智能设计平台渲染图_2026-08-05 16-We-45.jpg"
+        }
+      ],
+      "productIds": ["living-sofa-2700", "living-background-wall-k001", "living-tv-wall-0051"],
+      "materialIds": ["tile-south-sea-elm-yellow"]
+    },
+    {
+      "id": "primary-bedroom",
+      "order": 2,
+      "name": "主卧",
+      "areaSqm": 18.19,
+      "selectedRenderId": "primary-bedroom-render-01",
+      "renders": [
+        {
+          "id": "primary-bedroom-render-01",
+          "number": "01",
+          "image": "/customization/renders/primary-bedroom-01.jpg",
+          "sourceFile": "03主卧效果图/AI智能设计平台渲染图_2026-08-05 16-We-29.jpg"
+        },
+        {
+          "id": "primary-bedroom-render-02",
+          "number": "02",
+          "image": "/customization/renders/primary-bedroom-02.jpg",
+          "sourceFile": "03主卧效果图/AI智能设计平台渲染图_2026-08-05 16-We-39.jpg"
+        },
+        {
+          "id": "primary-bedroom-render-03",
+          "number": "03",
+          "image": "/customization/renders/primary-bedroom-03.jpg",
+          "sourceFile": "03主卧效果图/AI智能设计平台渲染图_2026-08-05 16-We-56.jpg"
+        }
+      ],
+      "productIds": ["primary-bed-w007", "primary-background-wall-t006", "primary-corner-wardrobe-0042"],
+      "materialIds": ["tile-malay-teak-yellow-brown"]
+    },
+    {
+      "id": "boys-bedroom",
+      "order": 3,
+      "name": "男孩房",
+      "areaSqm": 13.04,
+      "selectedRenderId": "boys-bedroom-render-01",
+      "renders": [
+        {
+          "id": "boys-bedroom-render-01",
+          "number": "01",
+          "image": "/customization/renders/boys-bedroom-01.jpg",
+          "sourceFile": "04男孩房/AI智能设计平台渲染图_2026-08-05 16-We-39.jpg"
+        },
+        {
+          "id": "boys-bedroom-render-02",
+          "number": "02",
+          "image": "/customization/renders/boys-bedroom-02.jpg",
+          "sourceFile": "04男孩房/AI智能设计平台渲染图_2026-08-05 16-We-52.jpg"
+        },
+        {
+          "id": "boys-bedroom-render-03",
+          "number": "03",
+          "image": "/customization/renders/boys-bedroom-03.jpg",
+          "sourceFile": "04男孩房/AI智能设计平台渲染图_2026-08-05 17-We-56.jpg"
+        }
+      ],
+      "productIds": ["boys-curtain-3000", "boys-wardrobe-0094", "boys-bed-1500"],
+      "materialIds": ["floor-zhi-yu-125"]
+    },
+    {
+      "id": "girls-bedroom",
+      "order": 4,
+      "name": "女孩房",
+      "areaSqm": 14.93,
+      "selectedRenderId": "girls-bedroom-render-01",
+      "renders": [
+        {
+          "id": "girls-bedroom-render-01",
+          "number": "01",
+          "image": "/customization/renders/girls-bedroom-01.jpg",
+          "sourceFile": "05女孩房/AI智能设计平台渲染图_2026-08-05 17-We-23.jpg"
+        },
+        {
+          "id": "girls-bedroom-render-02",
+          "number": "02",
+          "image": "/customization/renders/girls-bedroom-02.jpg",
+          "sourceFile": "05女孩房/AI智能设计平台渲染图_2026-08-05 17-We-24.jpg"
+        }
+      ],
+      "productIds": ["girls-desk-cabinet-0003", "girls-bed-l02", "girls-background-wall-t004", "girls-curtain-3500"],
+      "materialIds": ["floor-amber-oak"]
+    },
+    {
+      "id": "kitchen",
+      "order": 5,
+      "name": "厨房",
+      "areaSqm": 6.29,
+      "selectedRenderId": "kitchen-render-01",
+      "renders": [
+        {
+          "id": "kitchen-render-01",
+          "number": "01",
+          "image": "/customization/renders/kitchen-01.jpg",
+          "sourceFile": "06厨房/AI智能设计平台渲染图_2026-08-05 17-We-49.jpg"
+        },
+        {
+          "id": "kitchen-render-02",
+          "number": "02",
+          "image": "/customization/renders/kitchen-02.jpg",
+          "sourceFile": "06厨房/AI智能设计平台渲染图_2026-08-05 17-We-02.jpg"
+        },
+        {
+          "id": "kitchen-render-03",
+          "number": "03",
+          "image": "/customization/renders/kitchen-03.jpg",
+          "sourceFile": "06厨房/AI智能设计平台渲染图_2026-08-05 17-We-46.jpg"
+        }
+      ],
+      "productIds": ["kitchen-water-heater-r52"],
+      "materialIds": ["tile-bordeaux"]
+    },
+    {
+      "id": "shared-bathroom",
+      "order": 6,
+      "name": "公共卫生间",
+      "areaSqm": 5.49,
+      "selectedRenderId": "shared-bathroom-render-01",
+      "renders": [
+        {
+          "id": "shared-bathroom-render-01",
+          "number": "01",
+          "image": "/customization/renders/shared-bathroom-01.jpg",
+          "sourceFile": "07公共卫生间/AI智能设计平台渲染图_2026-08-05 17-We-10.jpg"
+        },
+        {
+          "id": "shared-bathroom-render-02",
+          "number": "02",
+          "image": "/customization/renders/shared-bathroom-02.jpg",
+          "sourceFile": "07公共卫生间/AI智能设计平台渲染图_2026-08-05 17-We-47.jpg"
+        }
+      ],
+      "productIds": ["bathroom-toilet-weibao-4607", "bathroom-vanity-combination", "shared-shower-screen", "shared-wall-tile-yashibai"],
+      "materialIds": ["tile-spring-ripple"]
+    },
+    {
+      "id": "primary-bathroom",
+      "order": 7,
+      "name": "主卫",
+      "areaSqm": 8,
+      "selectedRenderId": "primary-bathroom-render-01",
+      "renders": [
+        {
+          "id": "primary-bathroom-render-01",
+          "number": "01",
+          "image": "/customization/renders/primary-bathroom-01.jpg",
+          "sourceFile": "08主卫卫生间/AI智能设计平台渲染图_2026-08-05 17-We-37.jpg"
+        },
+        {
+          "id": "primary-bathroom-render-02",
+          "number": "02",
+          "image": "/customization/renders/primary-bathroom-02.jpg",
+          "sourceFile": "08主卫卫生间/AI智能设计平台渲染图_2026-08-05 17-We-51.jpg"
+        }
+      ],
+      "productIds": ["primary-bathtub", "bathroom-toilet-weibao-4607", "primary-bathroom-vanity-combination"],
+      "materialIds": ["tile-classic-lime-light-coffee"]
+    },
+    {
+      "id": "balcony",
+      "order": 8,
+      "name": "阳台",
+      "areaSqm": 13.32,
+      "selectedRenderId": "balcony-render-01",
+      "renders": [
+        {
+          "id": "balcony-render-01",
+          "number": "01",
+          "image": "/customization/renders/balcony-01.jpg",
+          "sourceFile": "09阳台/AI智能设计平台渲染图_2026-08-05 17-We-58.jpg"
+        },
+        {
+          "id": "balcony-render-02",
+          "number": "02",
+          "image": "/customization/renders/balcony-02.jpg",
+          "sourceFile": "09阳台/AI智能设计平台渲染图_2026-08-05 17-We-20.jpg"
+        }
+      ],
+      "productIds": ["balcony-lounge-chair-h030", "balcony-cabinet"],
+      "materialIds": ["tile-south-sea-elm-yellow"]
+    }
+  ],
+  "products": [
+    {
+      "id": "living-sofa-2700",
+      "name": "沙发2.7m组合",
+      "category": "家具",
+      "spaceIds": ["living-dining"],
+      "productCode": "3FO3G5GVEKME",
+      "dimensions": "4146.69 × 2995.14 × 2800 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/living-sofa-2700.png",
+      "sourceFile": "02客餐厅效果图/ScreenShot_2026-08-05_165022_893.png"
+    },
+    {
+      "id": "living-background-wall-k001",
+      "name": "奶油法式客厅背景墙 K001",
+      "category": "定制墙面",
+      "spaceIds": ["living-dining"],
+      "productCode": "3FO3G3GAT533",
+      "dimensions": "4498.03 × 84.93 × 2400 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/living-background-wall-k001.png",
+      "sourceFile": "02客餐厅效果图/ScreenShot_2026-08-05_165039_328.png"
+    },
+    {
+      "id": "living-tv-wall-0051",
+      "name": "电视墙柜 0051",
+      "category": "定制柜体",
+      "spaceIds": ["living-dining"],
+      "productCode": "3FO3LIQ3AJD",
+      "dimensions": "3400 × 350 × 2400 mm",
+      "brandSeries": "魔方科技",
+      "image": "/customization/products/living-tv-wall-0051.png",
+      "sourceFile": "02客餐厅效果图/ScreenShot_2026-08-05_165130_629.png"
+    },
+    {
+      "id": "primary-bed-w007",
+      "name": "法式奶油1.8m床架 W007组合",
+      "category": "家具",
+      "spaceIds": ["primary-bedroom"],
+      "productCode": "3FO3G5AGU8LH",
+      "dimensions": "3173.44 × 2935.59 × 2600 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/primary-bed-w007.png",
+      "sourceFile": "03主卧效果图/ScreenShot_2026-08-05_165155_431.png"
+    },
+    {
+      "id": "primary-background-wall-t006",
+      "name": "法式中古背景墙 T006",
+      "category": "定制墙面",
+      "spaceIds": ["primary-bedroom"],
+      "productCode": "3FO3G1IEIEP1",
+      "dimensions": "3042.47 × 30.73 × 2400 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/primary-background-wall-t006.png",
+      "sourceFile": "03主卧效果图/ScreenShot_2026-08-05_165225_271.png"
+    },
+    {
+      "id": "primary-corner-wardrobe-0042",
+      "name": "转角衣柜 0042",
+      "category": "定制柜体",
+      "spaceIds": ["primary-bedroom"],
+      "productCode": "3FO3LKU1OG5G",
+      "dimensions": "2400 × 1500 × 2400 mm",
+      "brandSeries": "魔方科技",
+      "image": "/customization/products/primary-corner-wardrobe-0042.png",
+      "sourceFile": "03主卧效果图/ScreenShot_2026-08-05_165242_924.png"
+    },
+    {
+      "id": "boys-curtain-3000",
+      "name": "现代浅色款窗帘 3m",
+      "category": "软装",
+      "spaceIds": ["boys-bedroom"],
+      "productCode": "3FO3KIH3I3OO",
+      "dimensions": "3008.57 × 237.88 × 2703.87 mm",
+      "brandSeries": "壹品软装",
+      "image": "/customization/products/boys-curtain-3000.png",
+      "sourceFile": "04男孩房/ScreenShot_2026-08-05_165633_764.png"
+    },
+    {
+      "id": "boys-wardrobe-0094",
+      "name": "衣柜 0094",
+      "category": "定制柜体",
+      "spaceIds": ["boys-bedroom"],
+      "productCode": "3FO3LIH2JJJA",
+      "dimensions": "1800 × 550 × 2400 mm",
+      "brandSeries": "魔方科技",
+      "image": "/customization/products/boys-wardrobe-0094.png",
+      "sourceFile": "04男孩房/ScreenShot_2026-08-05_165618_158.png"
+    },
+    {
+      "id": "boys-bed-1500",
+      "name": "现代男孩房1.5m床品组合",
+      "category": "家具",
+      "spaceIds": ["boys-bedroom"],
+      "productCode": "3FO3KBVRH6HY",
+      "dimensions": "2903.42 × 2890.77 × 2600.76 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/boys-bed-1500.png",
+      "sourceFile": "04男孩房/ScreenShot_2026-08-05_165534_964.png"
+    },
+    {
+      "id": "girls-desk-cabinet-0003",
+      "name": "转角书桌 0003",
+      "category": "定制柜体",
+      "spaceIds": ["girls-bedroom"],
+      "productCode": "3FO3LIIMYWVL",
+      "dimensions": "3000 × 1500 × 2400 mm",
+      "brandSeries": "魔方科技",
+      "image": "/customization/products/girls-desk-cabinet-0003.png",
+      "sourceFile": "05女孩房/ScreenShot_2026-08-05_170555_755.png"
+    },
+    {
+      "id": "girls-bed-l02",
+      "name": "现代女孩房1.5m床品 L02组合",
+      "category": "家具",
+      "spaceIds": ["girls-bedroom"],
+      "productCode": "3FO3KBVCETF9",
+      "dimensions": "2730.16 × 2753.01 × 2603.58 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/girls-bed-l02.png",
+      "sourceFile": "05女孩房/ScreenShot_2026-08-05_170511_190.png"
+    },
+    {
+      "id": "girls-background-wall-t004",
+      "name": "法式中古背景墙 T004",
+      "category": "定制墙面",
+      "spaceIds": ["girls-bedroom"],
+      "productCode": "3FO3G1IEDPUM",
+      "dimensions": "3094.42 × 73.76 × 2400 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/girls-background-wall-t004.png",
+      "sourceFile": "05女孩房/ScreenShot_2026-08-05_170525_091.png"
+    },
+    {
+      "id": "girls-curtain-3500",
+      "name": "新中式窗帘 3.5m",
+      "category": "软装",
+      "spaceIds": ["girls-bedroom"],
+      "productCode": "3FO3KIG3LERM",
+      "dimensions": "3552.75 × 138.04 × 2562.89 mm",
+      "brandSeries": "壹品软装",
+      "image": "/customization/products/girls-curtain-3500.png",
+      "sourceFile": "05女孩房/ScreenShot_2026-08-05_170539_491.png"
+    },
+    {
+      "id": "kitchen-water-heater-r52",
+      "name": "火星人 R52",
+      "category": "设备",
+      "spaceIds": ["kitchen"],
+      "productCode": "3FO3R76W4P3T",
+      "dimensions": "370 × 157.25 × 612.72 mm",
+      "brandSeries": "火星人",
+      "image": "/customization/products/kitchen-water-heater-r52.png",
+      "sourceFile": "06厨房/ScreenShot_2026-08-05_171201_833.png"
+    },
+    {
+      "id": "bathroom-toilet-weibao-4607",
+      "name": "唯宝 4607A101 + 8M64S101",
+      "category": "卫浴",
+      "spaceIds": ["shared-bathroom", "primary-bathroom"],
+      "productCode": "3FO3NTO0F1W5",
+      "dimensions": "374.46 × 722.24 × 672.57 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/bathroom-toilet-weibao-4607.png",
+      "sourceFile": "07公共卫生间/ScreenShot_2026-08-05_172017_146.png"
+    },
+    {
+      "id": "bathroom-vanity-combination",
+      "name": "浴室柜组合",
+      "category": "卫浴",
+      "spaceIds": ["shared-bathroom"],
+      "productCode": "3FO3LEW8S2X7",
+      "dimensions": "1167.71 × 592.88 × 2499.43 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/bathroom-vanity-combination.png",
+      "sourceFile": "07公共卫生间/ScreenShot_2026-08-05_172044_707.png"
+    },
+    {
+      "id": "shared-shower-screen",
+      "name": "一字淋浴房 10极窄",
+      "category": "卫浴",
+      "spaceIds": ["shared-bathroom"],
+      "productCode": "3FO3LI2OLDHJ",
+      "dimensions": "1800 × 60 × 2000 mm",
+      "brandSeries": "壹品卫浴",
+      "image": "/customization/products/shared-shower-screen.png",
+      "sourceFile": "07公共卫生间/ScreenShot_2026-08-05_172034_762.png"
+    },
+    {
+      "id": "shared-wall-tile-yashibai",
+      "name": "雅士白 900×1800 亮光墙砖",
+      "category": "墙面材料",
+      "spaceIds": ["shared-bathroom"],
+      "productCode": "3FO3NT0SAH15",
+      "dimensions": "900 × 1800 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/shared-wall-tile-yashibai.png",
+      "sourceFile": "07公共卫生间/墙面瓷砖：/ScreenShot_2026-08-05_172354_036.png"
+    },
+    {
+      "id": "primary-bathtub",
+      "name": "主卫浴缸",
+      "category": "卫浴",
+      "spaceIds": ["primary-bathroom"],
+      "productCode": "3FO3O4W5RHAC",
+      "dimensions": "1976.54 × 1058.34 × 997.77 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/primary-bathtub.png",
+      "sourceFile": "08主卫卫生间/ScreenShot_2026-08-05_172952_931.png"
+    },
+    {
+      "id": "primary-bathroom-vanity-combination",
+      "name": "主卫浴室柜组合",
+      "category": "卫浴",
+      "spaceIds": ["primary-bathroom"],
+      "productCode": "3FO3LEVEIUEV",
+      "dimensions": "1207 × 542.61 × 2400 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/primary-bathroom-vanity-combination.png",
+      "sourceFile": "08主卫卫生间/ScreenShot_2026-08-05_172935_932.png"
+    },
+    {
+      "id": "balcony-lounge-chair-h030",
+      "name": "休闲椅 H030组合",
+      "category": "家具",
+      "spaceIds": ["balcony"],
+      "productCode": "3FO3G0X3MOPW",
+      "dimensions": "1212 × 785.07 × 702.01 mm",
+      "brandSeries": "中建三局",
+      "image": "/customization/products/balcony-lounge-chair-h030.png",
+      "sourceFile": "09阳台/ScreenShot_2026-08-05_173929_144.png"
+    },
+    {
+      "id": "balcony-cabinet",
+      "name": "阳台柜",
+      "category": "定制柜体",
+      "spaceIds": ["balcony"],
+      "productCode": "3FO3LHVC8VW5",
+      "dimensions": "1200 × 500 × 2400 mm",
+      "brandSeries": "AI智能设计平台",
+      "image": "/customization/products/balcony-cabinet.png",
+      "sourceFile": "09阳台/ScreenShot_2026-08-05_173947_254.png"
+    }
+  ],
+  "materials": [
+    {
+      "id": "tile-south-sea-elm-yellow",
+      "name": "南洋楹木黄（木纹）",
+      "category": "地砖",
+      "spaceIds": ["living-dining", "balcony"],
+      "model": "YM305AP60120",
+      "size": "600 × 1200 mm",
+      "image": "/customization/materials/tile-south-sea-elm-yellow-ym305ap60120.jpg",
+      "sourceFile": "02客餐厅效果图/地砖：南洋楹木黄（木纹）（YM305AP60120）/image.jpeg",
+      "detailImage": "/customization/materials/details/tile-south-sea-elm-yellow-details.jpg",
+      "detailSourceFile": "02客餐厅效果图/地砖：南洋楹木黄（木纹）（YM305AP60120）/image (1).jpeg"
+    },
+    {
+      "id": "tile-malay-teak-yellow-brown",
+      "name": "马来柚木黄咖（木纹）",
+      "category": "地砖",
+      "spaceIds": ["primary-bedroom"],
+      "model": "YM3KC0LAP0",
+      "size": "600 × 1200 mm",
+      "image": "/customization/materials/tile-malay-teak-yellow-brown-ym3kc0lap0.jpg",
+      "sourceFile": "03主卧效果图/瓷砖：马来柚木黄咖（木纹）（YM3KC0LAP0）/image.jpeg",
+      "detailImage": "/customization/materials/details/tile-malay-teak-yellow-brown-details.jpg",
+      "detailSourceFile": "03主卧效果图/瓷砖：马来柚木黄咖（木纹）（YM3KC0LAP0）/image (1).jpeg"
+    },
+    {
+      "id": "floor-zhi-yu-125",
+      "name": "织语 125",
+      "category": "地板",
+      "spaceIds": ["boys-bedroom"],
+      "size": "1218 × 198 × 10 mm",
+      "image": "/customization/materials/floor-zhi-yu-125.jpg",
+      "sourceFile": "04男孩房/地板：织语125/image (2).jpeg",
+      "detailImage": "/customization/materials/details/floor-zhi-yu-125-details.jpg",
+      "detailSourceFile": "04男孩房/地板：织语125/image.jpeg"
+    },
+    {
+      "id": "floor-amber-oak",
+      "name": "琥珀光橡",
+      "category": "地板",
+      "spaceIds": ["girls-bedroom"],
+      "model": "待壹品补充",
+      "image": "/customization/materials/floor-amber-oak.jpg",
+      "sourceFile": "05女孩房/地面：琥珀光橡/image (1).jpeg",
+      "detailImage": "/customization/materials/details/floor-amber-oak-details.jpg",
+      "detailSourceFile": "05女孩房/地面：琥珀光橡/image.jpeg"
+    },
+    {
+      "id": "tile-bordeaux",
+      "name": "波尔多",
+      "category": "瓷砖",
+      "spaceIds": ["kitchen"],
+      "model": "8FMB10697PM",
+      "size": "待壹品补充",
+      "image": "/customization/materials/tile-bordeaux-8fmb10697pm.jpg",
+      "sourceFile": "06厨房/瓷砖：波尔多(8FMB10697PM)/image (2).jpeg",
+      "detailImage": "/customization/materials/details/tile-bordeaux-details.jpg",
+      "detailSourceFile": "06厨房/瓷砖：波尔多(8FMB10697PM)/image.jpeg"
+    },
+    {
+      "id": "tile-spring-ripple",
+      "name": "春漾（花砖）",
+      "category": "地面瓷砖",
+      "spaceIds": ["shared-bathroom"],
+      "model": "ZV307340GDP0T0",
+      "size": "400 × 400 mm",
+      "image": "/customization/materials/tile-spring-ripple-zv307340gdp0t0.jpg",
+      "sourceFile": "07公共卫生间/地面瓷砖：春漾(花砖）（ZV307340GDP0T0）/image (1).jpeg",
+      "detailImage": "/customization/materials/details/tile-spring-ripple-details.jpg",
+      "detailSourceFile": "07公共卫生间/地面瓷砖：春漾(花砖）（ZV307340GDP0T0）/image.jpeg"
+    },
+    {
+      "id": "tile-classic-lime-light-coffee",
+      "name": "经典莱姆浅咖",
+      "category": "地面瓷砖",
+      "spaceIds": ["primary-bathroom"],
+      "model": "S70BC0RAP0",
+      "size": "600 × 1200 mm",
+      "image": "/customization/materials/tile-classic-lime-light-coffee-s70bc0rap0.jpg",
+      "sourceFile": "08主卫卫生间/地面瓷砖：经典莱姆浅咖（S70BC0RAP0）/image.jpeg",
+      "detailImage": "/customization/materials/details/tile-classic-lime-light-coffee-details.jpg",
+      "detailSourceFile": "08主卫卫生间/地面瓷砖：经典莱姆浅咖（S70BC0RAP0）/image (1).jpeg"
+    }
+  ],
+  "deduplication": [
+    {
+      "type": "exact-file",
+      "kept": "02客餐厅效果图/地砖：南洋楹木黄（木纹）（YM305AP60120）",
+      "excluded": "09阳台/地砖：南洋楹木黄（木纹）（YM305AP60120）",
+      "reason": "两组材料图完全相同，通过同一个 materialId 关联客餐厅和阳台"
+    },
+    {
+      "type": "same-product",
+      "kept": "07公共卫生间/ScreenShot_2026-08-05_172017_146.png",
+      "excluded": "08主卫卫生间/ScreenShot_2026-08-05_173018_577.png",
+      "reason": "同一款唯宝马桶，仅保留一张产品图并关联两个卫生间"
+    }
+  ],
+  "pendingConfirmations": [
+    "方案正式风格名称",
+    "户型或项目正式名称",
+    "琥珀光橡的型号与规格",
+    "波尔多瓷砖的规格",
+    "火星人 R52 的正式产品类型与品牌系列"
+  ]
+}

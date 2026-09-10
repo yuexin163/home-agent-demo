@@ -1,0 +1,27 @@
+[Unit]
+Description=Yipin Tencent ASR signing service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/var/www/yipin-asr-service
+EnvironmentFile=/home/ubuntu/.config/yipin-smart-home/asr.env
+ExecStart=/usr/bin/python3 /var/www/yipin-asr-service/asr_signing_service.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+
+[Install]
+WantedBy=multi-user.target

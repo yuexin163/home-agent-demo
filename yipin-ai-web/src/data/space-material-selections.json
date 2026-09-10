@@ -1,0 +1,14 @@
+[
+  {
+    "id": "living-dining-floor-selection",
+    "spaceId": "living-dining",
+    "materialId": "living-dining-floor",
+    "category": "地板",
+    "recommendedProductId": "floor-amber-oak",
+    "alternativeProductIds": ["floor-begonia-oak"],
+    "applicationArea": "客餐厅地面",
+    "status": "方案推荐",
+    "reason": "浅色木纹与客餐厅温润自然的空间方案一致，适合客餐厅连续铺装，并与墙面及柜体色彩形成协调层次。",
+    "dataStatus": "方案选材已归档"
+  }
+]

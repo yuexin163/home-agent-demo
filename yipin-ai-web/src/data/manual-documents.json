@@ -1,0 +1,346 @@
+{
+  "sourceSummary": {
+    "housePdfCount": 3,
+    "equipmentPdfCount": 13,
+    "equipmentDeviceCount": 12,
+    "equipmentZones": [
+      "厨电",
+      "卫浴",
+      "暖通",
+      "其他"
+    ],
+    "note": "房屋资料保留3份PDF原件；完全相同的RB282805重复PDF仅保留组合冰箱记录。"
+  },
+  "documents": [
+    {
+      "id": "house-1202-occupancy-guide",
+      "title": "1202入住手册",
+      "summary": "住宅入住、物业服务与日常居住相关资料。",
+      "keywords": [
+        "入住",
+        "物业",
+        "住宅",
+        "交付",
+        "使用"
+      ],
+      "kind": "house",
+      "zone": "房屋资料",
+      "deviceName": null,
+      "model": null,
+      "pdfUrl": "/manuals/house/房屋资料/house-1202-occupancy-guide.pdf",
+      "coverImage": "/manuals/covers/house-1202-occupancy-guide.jpg",
+      "pageCount": 31,
+      "fileSize": "46.1 MB",
+      "searchablePageCount": 0,
+      "sourceFile": "1202入住手册.pdf"
+    },
+    {
+      "id": "house-shanghai-use-guide-2020",
+      "title": "上海市新建住宅使用说明书（2020年版）",
+      "summary": "新建住宅的结构、设施使用、维护与注意事项说明。",
+      "keywords": [
+        "住宅使用",
+        "结构",
+        "设施",
+        "维护",
+        "注意事项"
+      ],
+      "kind": "house",
+      "zone": "房屋资料",
+      "deviceName": null,
+      "model": null,
+      "pdfUrl": "/manuals/house/房屋资料/house-shanghai-use-guide-2020.pdf",
+      "coverImage": "/manuals/covers/house-shanghai-use-guide-2020.jpg",
+      "pageCount": 13,
+      "fileSize": "807 KB",
+      "searchablePageCount": 0,
+      "sourceFile": "上海市新建住宅使用说明书（2020年版）.pdf"
+    },
+    {
+      "id": "house-shanghai-quality-guarantee-2020",
+      "title": "上海市新建住宅质量保证书（2020年版）",
+      "summary": "新建住宅质量责任、保修范围与保修期限相关资料。",
+      "keywords": [
+        "质量保证",
+        "保修",
+        "责任",
+        "期限",
+        "住宅"
+      ],
+      "kind": "house",
+      "zone": "房屋资料",
+      "deviceName": null,
+      "model": null,
+      "pdfUrl": "/manuals/house/房屋资料/house-shanghai-quality-guarantee-2020.pdf",
+      "coverImage": "/manuals/covers/house-shanghai-quality-guarantee-2020.jpg",
+      "pageCount": 2,
+      "fileSize": "557 KB",
+      "searchablePageCount": 0,
+      "sourceFile": "上海市新建住宅质量保证书（2020年版）.pdf"
+    },
+    {
+      "id": "device-kaadas-smart-lock",
+      "kind": "equipment",
+      "zone": "其他",
+      "deviceName": "凯迪仕电子锁",
+      "title": "凯迪仕电子锁说明书",
+      "model": "电子锁",
+      "summary": "电子锁开锁、用户管理、电池维护与异常处理说明。",
+      "keywords": [
+        "其他",
+        "凯迪仕电子锁",
+        "电子锁"
+      ],
+      "pdfUrl": "/manuals/equipment/其他/device-kaadas-smart-lock.pdf",
+      "coverImage": "/manuals/covers/device-kaadas-smart-lock.png",
+      "pageCount": 16,
+      "fileSize": "12.6 MB",
+      "searchablePageCount": 0,
+      "sourceFile": "凯迪仕电子锁说明书.pdf"
+    },
+    {
+      "id": "device-ao-smith-water-heater",
+      "kind": "equipment",
+      "zone": "卫浴",
+      "deviceName": "A.O.史密斯燃气热水器",
+      "title": "JSLQ28-AJEWi 1级能效燃气热水器说明书",
+      "model": "JSLQ28-AJEWi",
+      "summary": "燃气热水器操作、温度设置、安全防护与维护说明。",
+      "keywords": [
+        "卫浴",
+        "AO史密斯热水器",
+        "A.O.史密斯燃气热水器",
+        "JSLQ28-AJEWi"
+      ],
+      "pdfUrl": "/manuals/equipment/卫浴/device-ao-smith-water-heater.pdf",
+      "coverImage": "/manuals/covers/device-ao-smith-water-heater.png",
+      "pageCount": 19,
+      "fileSize": "3.4 MB",
+      "searchablePageCount": 19,
+      "sourceFile": "JSLQ28-AJEWi 1级能效燃气热水器说明书.pdf"
+    },
+    {
+      "id": "device-axent-smart-bathtub",
+      "kind": "equipment",
+      "zone": "卫浴",
+      "deviceName": "恩仕云控浴缸",
+      "title": "浴缸-恩仕-云控浴缸用户手册",
+      "model": "云控浴缸",
+      "summary": "云控浴缸功能、操作流程、清洁维护与安全注意事项。",
+      "keywords": [
+        "卫浴",
+        "恩仕浴缸",
+        "恩仕云控浴缸",
+        "云控浴缸"
+      ],
+      "pdfUrl": "/manuals/equipment/卫浴/device-axent-smart-bathtub.pdf",
+      "coverImage": "/manuals/covers/device-axent-smart-bathtub.png",
+      "pageCount": 15,
+      "fileSize": "9.2 MB",
+      "searchablePageCount": 10,
+      "sourceFile": "浴缸-恩仕-云控浴缸用户手册.pdf"
+    },
+    {
+      "id": "device-opple-bath-heater",
+      "kind": "equipment",
+      "zone": "卫浴",
+      "deviceName": "欧普浴霸",
+      "title": "MRGC2安装使用说明20250610",
+      "model": "MRGC2",
+      "summary": "浴霸安装、照明、取暖、换气与安全使用说明。",
+      "keywords": [
+        "卫浴",
+        "欧普浴霸",
+        "MRGC2"
+      ],
+      "pdfUrl": "/manuals/equipment/卫浴/device-opple-bath-heater.pdf",
+      "coverImage": "/manuals/covers/device-opple-bath-heater.png",
+      "pageCount": 21,
+      "fileSize": "5.3 MB",
+      "searchablePageCount": 0,
+      "sourceFile": "MRGC2安装使用说明20250610.pdf"
+    },
+    {
+      "id": "device-opple-bath-heater-supplement",
+      "kind": "equipment",
+      "zone": "卫浴",
+      "deviceName": "欧普浴霸",
+      "title": "浴霸说明书",
+      "model": "MRGC2",
+      "summary": "浴霸安装、照明、取暖、换气与安全使用说明。",
+      "keywords": [
+        "卫浴",
+        "欧普浴霸",
+        "MRGC2"
+      ],
+      "pdfUrl": "/manuals/equipment/卫浴/device-opple-bath-heater-supplement.pdf",
+      "coverImage": "/manuals/covers/device-opple-bath-heater-supplement.png",
+      "pageCount": 14,
+      "fileSize": "8.3 MB",
+      "searchablePageCount": 0,
+      "sourceFile": "浴霸说明书.pdf"
+    },
+    {
+      "id": "device-gaggenau-hood-aw240190cn",
+      "kind": "equipment",
+      "zone": "厨电",
+      "deviceName": "嘉格纳200系列中式烟机",
+      "title": "说明书-AW240190CN",
+      "model": "AW240190CN",
+      "summary": "油烟机功能操作、滤网清洁、维护与安全说明。",
+      "keywords": [
+        "厨电",
+        "嘉格纳200系列中式烟机",
+        "AW240190CN"
+      ],
+      "pdfUrl": "/manuals/equipment/厨电/device-gaggenau-hood-aw240190cn.pdf",
+      "coverImage": "/manuals/covers/device-gaggenau-hood-aw240190cn.png",
+      "pageCount": 16,
+      "fileSize": "3.3 MB",
+      "searchablePageCount": 14,
+      "sourceFile": "说明书-AW240190CN.pdf"
+    },
+    {
+      "id": "device-gaggenau-dishwasher-di260800",
+      "kind": "equipment",
+      "zone": "厨电",
+      "deviceName": "嘉格纳200系列半嵌式洗碗机",
+      "title": "说明书-DI260800",
+      "model": "DI260800",
+      "summary": "洗涤程序、耗材添加、日常维护与故障处理说明。",
+      "keywords": [
+        "厨电",
+        "嘉格纳200系列半嵌式洗碗机",
+        "DI260800"
+      ],
+      "pdfUrl": "/manuals/equipment/厨电/device-gaggenau-dishwasher-di260800.pdf",
+      "coverImage": "/manuals/covers/device-gaggenau-dishwasher-di260800.png",
+      "pageCount": 48,
+      "fileSize": "4.4 MB",
+      "searchablePageCount": 45,
+      "sourceFile": "说明书-DI260800.pdf"
+    },
+    {
+      "id": "device-gaggenau-oven-go240100",
+      "kind": "equipment",
+      "zone": "厨电",
+      "deviceName": "嘉格纳200系列烤箱",
+      "title": "说明书-GO240100",
+      "model": "GO240100",
+      "summary": "烤箱操作、程序设置、安全注意与清洁保养说明。",
+      "keywords": [
+        "厨电",
+        "嘉格纳200系列烤箱",
+        "GO240100"
+      ],
+      "pdfUrl": "/manuals/equipment/厨电/device-gaggenau-oven-go240100.pdf",
+      "coverImage": "/manuals/covers/device-gaggenau-oven-go240100.png",
+      "pageCount": 44,
+      "fileSize": "2.6 MB",
+      "searchablePageCount": 38,
+      "sourceFile": "说明书-GO240100.pdf"
+    },
+    {
+      "id": "device-gaggenau-gas-hob-vg273220cn",
+      "kind": "equipment",
+      "zone": "厨电",
+      "deviceName": "嘉格纳200系列燃气灶",
+      "title": "说明书-VG273220CN",
+      "model": "VG273220CN",
+      "summary": "燃气灶点火、火力调节、安全使用与日常清洁说明。",
+      "keywords": [
+        "厨电",
+        "嘉格纳200系列燃气灶",
+        "VG273220CN"
+      ],
+      "pdfUrl": "/manuals/equipment/厨电/device-gaggenau-gas-hob-vg273220cn.pdf",
+      "coverImage": "/manuals/covers/device-gaggenau-gas-hob-vg273220cn.png",
+      "pageCount": 20,
+      "fileSize": "1.2 MB",
+      "searchablePageCount": 17,
+      "sourceFile": "说明书-VG273220CN.pdf"
+    },
+    {
+      "id": "device-gaggenau-combi-fridge",
+      "kind": "equipment",
+      "zone": "厨电",
+      "deviceName": "嘉格纳200系列组合冰箱",
+      "title": "说明书-RB282805",
+      "model": "RB282805",
+      "summary": "组合冰箱功能、温度设置、家居互联与清洁保养说明。",
+      "keywords": [
+        "厨电",
+        "嘉格纳200系列组合冰箱",
+        "RB282805"
+      ],
+      "pdfUrl": "/manuals/equipment/厨电/device-gaggenau-combi-fridge.pdf",
+      "coverImage": "/manuals/covers/device-gaggenau-combi-fridge.jpg",
+      "pageCount": 28,
+      "fileSize": "1.0 MB",
+      "searchablePageCount": 26,
+      "sourceFile": "说明书-RB282805.pdf"
+    },
+    {
+      "id": "device-angel-water-purifier-j3402",
+      "kind": "equipment",
+      "zone": "厨电",
+      "deviceName": "安吉尔净水器",
+      "title": "J3402-ROB120H说明书",
+      "model": "J3402-ROB120H",
+      "summary": "净水器使用、滤芯维护、安全注意与常见问题说明。",
+      "keywords": [
+        "厨电",
+        "安吉尔净水器",
+        "J3402-ROB120H"
+      ],
+      "pdfUrl": "/manuals/equipment/厨电/device-angel-water-purifier-j3402.pdf",
+      "coverImage": "/manuals/covers/device-angel-water-purifier-j3402.png",
+      "pageCount": 11,
+      "fileSize": "1.3 MB",
+      "searchablePageCount": 11,
+      "sourceFile": "J3402-ROB120H说明书.pdf"
+    },
+    {
+      "id": "device-huotong-erv",
+      "kind": "equipment",
+      "zone": "暖通",
+      "deviceName": "霍通超低能耗新风系统",
+      "title": "霍通超低能耗ERV-GBHV说明书20250115",
+      "model": "ERV-GBHV",
+      "summary": "新风系统控制、滤网维护、运行模式与使用注意事项。",
+      "keywords": [
+        "暖通",
+        "新风",
+        "霍通超低能耗新风系统",
+        "ERV-GBHV"
+      ],
+      "pdfUrl": "/manuals/equipment/暖通/device-huotong-erv.pdf",
+      "coverImage": "/manuals/covers/device-huotong-erv.png",
+      "pageCount": 16,
+      "fileSize": "3.2 MB",
+      "searchablePageCount": 10,
+      "sourceFile": "霍通超低能耗ERV-GBHV说明书20250115.pdf"
+    },
+    {
+      "id": "device-daikin-air-conditioner",
+      "kind": "equipment",
+      "zone": "暖通",
+      "deviceName": "大金空调",
+      "title": "大金空调机",
+      "model": "机组说明",
+      "summary": "空调机组操作、运行模式、维护和故障注意事项。",
+      "keywords": [
+        "暖通",
+        "空调",
+        "大金空调",
+        "机组说明"
+      ],
+      "pdfUrl": "/manuals/equipment/暖通/device-daikin-air-conditioner.pdf",
+      "coverImage": "/manuals/covers/device-daikin-air-conditioner.jpg",
+      "pageCount": 25,
+      "fileSize": "15.9 MB",
+      "searchablePageCount": 0,
+      "sourceFile": "大金空调机.pdf"
+    }
+  ]
+}

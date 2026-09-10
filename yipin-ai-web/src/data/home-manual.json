@@ -1,0 +1,115 @@
+{
+  "property": {
+    "name": "中建壹品·汉芯公馆",
+    "location": "中建壹品·汉芯公馆",
+    "buildingArea": "126 ㎡",
+    "layout": "三室两厅两卫",
+    "orientation": "南北通透",
+    "floor": "中间楼层",
+    "style": "现代原木",
+    "completionDate": "2026年",
+    "dataStatus": "数字房屋档案"
+  },
+  "rooms": [
+    {
+      "id": "living-dining",
+      "name": "客餐厅",
+      "area": "39.47 ㎡",
+      "description": "公共活动与用餐空间，当前房屋档案包含地面材料和整墙收纳设备。"
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房",
+      "area": "6.29 ㎡",
+      "description": "烹饪与清洁空间，当前房屋档案包含烟机、燃气灶和洗碗机。"
+    },
+    {
+      "id": "bathroom",
+      "name": "卫浴",
+      "area": "13.49 ㎡",
+      "description": "洗漱、如厕与淋浴空间，当前房屋档案包含座便器、浴室柜和淋浴器。"
+    }
+  ],
+  "installedEquipment": [
+    {
+      "id": "installed-floor",
+      "productId": "floor-amber-oak",
+      "spaceId": "living-dining",
+      "installLocation": "客餐厅连续铺装",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "日常使用拧干的软布清洁，避免长时间积水和尖锐物拖拽。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-tv-cabinet",
+      "productId": "cabinet-tv-wall",
+      "spaceId": "living-dining",
+      "installLocation": "客厅电视背景墙",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "保持柜体干燥，五金松动或门板不齐时联系服务人员调整。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-range-hood",
+      "productId": "appliance-range-hood",
+      "spaceId": "kitchen",
+      "installLocation": "厨房灶台上方",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "每次烹饪后擦拭表面，定期清洁油网；内部拆洗由专业人员完成。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-gas-hob",
+      "productId": "appliance-gas-hob",
+      "spaceId": "kitchen",
+      "installLocation": "厨房操作台",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "保持火孔畅通和台面干燥；发现点火异常或燃气气味时立即关闭气源并报修。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-dishwasher",
+      "productId": "appliance-dishwasher",
+      "spaceId": "kitchen",
+      "installLocation": "厨房地柜嵌入位",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "定期清理滤网和喷淋臂，按设备要求补充专用盐并保持门封清洁。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-smart-toilet",
+      "productId": "bathroom-smart-toilet-jzt300",
+      "spaceId": "bathroom",
+      "installLocation": "卫生间如厕区",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "使用中性清洁剂和软布清洁，避免直接冲洗电气部位，长期不用时关闭水电。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-vanity",
+      "productId": "bathroom-vanity-almond",
+      "spaceId": "bathroom",
+      "installLocation": "卫生间洗漱区",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "及时擦干台面积水，保持柜内通风，并定期检查下水接口是否渗漏。",
+      "status": "在册设备"
+    },
+    {
+      "id": "installed-shower",
+      "productId": "hardware-bathroom-shower",
+      "spaceId": "bathroom",
+      "installLocation": "卫生间淋浴区",
+      "installedAt": "已安装",
+      "warranty": "详见产品保修说明",
+      "maintenance": "定期擦拭出水孔和表面水垢，水流减小时检查花洒出水孔和进水滤网。",
+      "status": "在册设备"
+    }
+  ]
+}

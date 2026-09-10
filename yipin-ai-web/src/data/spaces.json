@@ -1,0 +1,41 @@
+[
+  {
+    "id": "living-dining",
+    "name": "客餐厅",
+    "description": "以通透、自然、适合家人共处为核心，集中展示客餐厅地板、软装与定制柜体资料。",
+    "coverImage": "/og.png",
+    "gallery": ["/og.png"],
+    "materialIds": ["living-dining-floor", "living-dining-wall", "living-dining-cabinet"],
+    "documentIds": ["living-plan", "living-bom"],
+    "designConcept": "温润木色与低饱和米灰构成空间基调，通过无主灯设计、连续收纳界面与耐用材料，兼顾视觉质感与日常居住需求。",
+    "highlights": ["客餐厅一体化", "自然材质", "连续收纳", "柔和无主灯"],
+    "visualMode": "concept",
+    "visualLabel": "客餐厅空间设计"
+  },
+  {
+    "id": "kitchen",
+    "name": "厨房",
+    "description": "围绕烹饪、清洁、热水和净水需求，展示烟灶、洗碗、蒸烤、水槽与水系统的产品资料。",
+    "coverImage": "/products/appliance-range-hood.jpg",
+    "gallery": ["/products/appliance-range-hood.jpg", "/products/appliance-gas-hob.jpg", "/products/appliance-dishwasher.jpg"],
+    "materialIds": [],
+    "documentIds": [],
+    "designConcept": "围绕烹饪、清洁、热水和净水动线配置厨房设备，安装布局与尺寸结合橱柜方案统一规划。",
+    "highlights": ["烟灶组合", "嵌入式设备", "净水系统", "设备资料"],
+    "visualMode": "product-preview",
+    "visualLabel": "厨房设备配置"
+  },
+  {
+    "id": "bathroom",
+    "name": "卫浴",
+    "description": "围绕如厕、洗漱、收纳与淋浴，集中展示座便器、浴室柜和淋浴器产品资料。",
+    "coverImage": "/products/bathroom-vanity.jpg",
+    "gallery": ["/products/bathroom-vanity.jpg", "/products/bathroom-smart-toilet.jpg", "/products/bathroom-concealed-cistern.jpg"],
+    "materialIds": [],
+    "documentIds": [],
+    "designConcept": "围绕如厕、洗漱、收纳与淋浴需求配置座便器、浴室柜和淋浴器，并关联型号、规格与安装空间。",
+    "highlights": ["干净易维护", "挂墙方案", "收纳洗漱", "淋浴五金"],
+    "visualMode": "product-preview",
+    "visualLabel": "卫浴产品配置"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "living-dining-floor",
+    "spaceId": "living-dining",
+    "category": "地板",
+    "name": "琥珀光橡强化地板",
+    "brand": "生活家",
+    "model": "琥珀光橡",
+    "specification": "1215 × 199 × 10.3 mm",
+    "material": "强化地板",
+    "color": "浅橡木色",
+    "description": "适用于客餐厅连续铺装，浅橡木色与低饱和空间基调自然衔接。产品名称、品牌、型号与规格已归档。",
+    "coverImage": "/products/floor-amber-oak.jpg",
+    "gallery": ["/products/floor-amber-oak.jpg"],
+    "documentIds": ["floor-spec", "living-bom"],
+    "available": true,
+    "recommendedProductId": "floor-amber-oak"
+  },
+  {
+    "id": "living-dining-wall",
+    "spaceId": "living-dining",
+    "category": "墙面",
+    "name": "客餐厅低饱和艺术涂料",
+    "brand": "方案定制",
+    "model": "按空间深化",
+    "specification": "按现场尺寸定制",
+    "material": "艺术涂料",
+    "color": "暖米灰",
+    "description": "墙面资料正在整理中。",
+    "coverImage": "/placeholders/wall.jpg",
+    "gallery": [],
+    "documentIds": [],
+    "available": false
+  },
+  {
+    "id": "living-dining-cabinet",
+    "spaceId": "living-dining",
+    "category": "柜体",
+    "name": "客餐厅一体化收纳柜",
+    "brand": "方案定制",
+    "model": "按空间深化",
+    "specification": "按现场尺寸定制",
+    "material": "饰面板 / 环保基材",
+    "color": "浅木色",
+    "description": "柜体资料正在整理中。",
+    "coverImage": "/placeholders/cabinet.jpg",
+    "gallery": [],
+    "documentIds": [],
+    "available": false
+  }
+]

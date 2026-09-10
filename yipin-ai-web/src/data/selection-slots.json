@@ -1,0 +1,150 @@
+[
+  {
+    "id": "living-dining-floor",
+    "spaceId": "living-dining",
+    "name": "客餐厅地面",
+    "categoryLabel": "地板",
+    "libraryCategory": "地板",
+    "description": "查看适合客餐厅连续铺装的地板产品资料。",
+    "productIds": ["floor-amber-oak", "floor-begonia-oak"],
+    "recommendedProductId": "floor-amber-oak"
+  },
+  {
+    "id": "living-dining-wall",
+    "spaceId": "living-dining",
+    "name": "客餐厅墙面",
+    "categoryLabel": "墙面",
+    "description": "墙面材质与色彩方案持续完善。",
+    "productIds": []
+  },
+  {
+    "id": "living-dining-cabinet",
+    "spaceId": "living-dining",
+    "name": "客餐厅柜体",
+    "categoryLabel": "定制柜体",
+    "libraryCategory": "定制柜体",
+    "description": "电视柜与餐边柜组成客餐厅连续收纳系统。",
+    "productIds": ["cabinet-tv-wall", "cabinet-sideboard"],
+    "recommendedProductId": "cabinet-tv-wall"
+  },
+  {
+    "id": "living-dining-sofa",
+    "spaceId": "living-dining",
+    "name": "客厅沙发",
+    "categoryLabel": "软装",
+    "libraryCategory": "软装",
+    "description": "客厅核心软装配置，兼顾会客、休憩与空间尺度。",
+    "productIds": ["soft-sofa-chaise"],
+    "recommendedProductId": "soft-sofa-chaise"
+  },
+  {
+    "id": "living-dining-table",
+    "spaceId": "living-dining",
+    "name": "餐桌椅组合",
+    "categoryLabel": "软装",
+    "libraryCategory": "软装",
+    "description": "餐厅一桌四椅组合，形成完整的用餐与交流空间。",
+    "productIds": ["soft-table-set-2373"],
+    "recommendedProductId": "soft-table-set-2373"
+  },
+  {
+    "id": "kitchen-range-hood",
+    "spaceId": "kitchen",
+    "name": "油烟机",
+    "categoryLabel": "厨房电器",
+    "libraryCategory": "厨房电器",
+    "description": "厨房排烟设备配置，可按风量、静压与安装方式查看。",
+    "productIds": ["appliance-range-hood", "appliance-range-hood-z7"],
+    "recommendedProductId": "appliance-range-hood"
+  },
+  {
+    "id": "kitchen-gas-hob",
+    "spaceId": "kitchen",
+    "name": "燃气灶",
+    "categoryLabel": "厨房电器",
+    "libraryCategory": "厨房电器",
+    "description": "厨房灶具配置，可按火力、面板材质与安装尺寸查看。",
+    "productIds": ["appliance-gas-hob", "appliance-gas-hob-td7b"],
+    "recommendedProductId": "appliance-gas-hob"
+  },
+  {
+    "id": "kitchen-dishwasher",
+    "spaceId": "kitchen",
+    "name": "洗碗机",
+    "categoryLabel": "厨房电器",
+    "libraryCategory": "厨房电器",
+    "description": "嵌入式与集成式洗碗机配置，可按容量和安装方式查看。",
+    "productIds": ["appliance-dishwasher", "appliance-dishwasher-integrated"],
+    "recommendedProductId": "appliance-dishwasher"
+  },
+  {
+    "id": "kitchen-steam-oven",
+    "spaceId": "kitchen",
+    "name": "蒸烤设备",
+    "categoryLabel": "厨房电器",
+    "libraryCategory": "厨房电器",
+    "description": "嵌入式蒸烤设备产品资料。",
+    "productIds": ["appliance-steam-oven"],
+    "recommendedProductId": "appliance-steam-oven"
+  },
+  {
+    "id": "kitchen-water-heater",
+    "spaceId": "kitchen",
+    "name": "热水器",
+    "categoryLabel": "厨房电器",
+    "libraryCategory": "厨房电器",
+    "description": "厨房热水设备产品资料。",
+    "productIds": ["appliance-water-heater"],
+    "recommendedProductId": "appliance-water-heater"
+  },
+  {
+    "id": "kitchen-water-purifier",
+    "spaceId": "kitchen",
+    "name": "净水设备",
+    "categoryLabel": "厨房电器",
+    "libraryCategory": "厨房电器",
+    "description": "厨房净水设备产品资料。",
+    "productIds": ["appliance-water-purifier"],
+    "recommendedProductId": "appliance-water-purifier"
+  },
+  {
+    "id": "kitchen-sink",
+    "spaceId": "kitchen",
+    "name": "厨房水槽",
+    "categoryLabel": "厨卫五金",
+    "libraryCategory": "厨卫五金",
+    "description": "厨房清洗区配置，采用不锈钢手工单槽。",
+    "productIds": ["hardware-kitchen-sink"],
+    "recommendedProductId": "hardware-kitchen-sink"
+  },
+  {
+    "id": "bathroom-toilet-solution",
+    "spaceId": "bathroom",
+    "name": "座便器方案",
+    "categoryLabel": "卫浴",
+    "libraryCategory": "卫浴",
+    "description": "智能马桶、挂墙式座便器与隐藏水箱组合资料。",
+    "productIds": ["bathroom-smart-toilet", "bathroom-smart-toilet-jzt300", "bathroom-wall-hung-toilet", "bathroom-concealed-cistern"],
+    "recommendedProductId": "bathroom-smart-toilet"
+  },
+  {
+    "id": "bathroom-vanity",
+    "spaceId": "bathroom",
+    "name": "浴室柜",
+    "categoryLabel": "卫浴",
+    "libraryCategory": "卫浴",
+    "description": "卫生间收纳与洗漱设备资料。",
+    "productIds": ["bathroom-vanity", "bathroom-vanity-almond"],
+    "recommendedProductId": "bathroom-vanity"
+  },
+  {
+    "id": "bathroom-shower",
+    "spaceId": "bathroom",
+    "name": "淋浴器",
+    "categoryLabel": "厨卫五金",
+    "libraryCategory": "厨卫五金",
+    "description": "卫生间淋浴配置，兼顾增压出水与日常置物。",
+    "productIds": ["hardware-bathroom-shower"],
+    "recommendedProductId": "hardware-bathroom-shower"
+  }
+]
